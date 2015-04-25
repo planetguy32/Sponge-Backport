@@ -38,8 +38,8 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.common.interfaces.IMixinWorldType;
 import org.spongepowered.common.world.gen.SpongeBiomeGenerator;
+import org.spongepowered.common.world.gen.SpongeGeneratorPopulator;
 import org.spongepowered.common.world.gen.SpongeWorldGenerator;
-import org.spongepowered.mod.world.gen.SpongeGeneratorPopulator;
 
 @NonnullByDefault
 @Mixin(WorldType.class)
